@@ -1,0 +1,61 @@
+{
+  "configuration": {
+    "source_checkpoint": "phase_ensemble_v1/summaries/dynamic_recovery/short_forced_audit_N64/final_checkpoint.npz",
+    "N": 64,
+    "start_step": 300,
+    "target_step": 3000,
+    "workers": 16,
+    "viscosity": 0.015,
+    "epsilon_input": 0.1,
+    "dt": 0.01,
+    "cfl_abort": 0.55,
+    "stationarity_window_time": 15.0
+  },
+  "final_state": {
+    "final_step": 3000,
+    "final_simulation_time": 30.00000000000189,
+    "final_energy": 0.5707689762083916,
+    "final_dissipation": 0.09997235538916799,
+    "final_reynolds_lambda": 38.05652573337391,
+    "final_kmax_eta": 1.6007287969690749,
+    "maximum_cfl": 0.2546377408986963,
+    "maximum_divergence_error": 1.131380542428917e-16,
+    "maximum_budget_relative_residual": 2.9952631130638924e-06
+  },
+  "numerical_failure": null,
+  "numerical_checks": {
+    "target_step_reached": true,
+    "no_recorded_failure": true,
+    "cfl_control": true,
+    "divergence_control": true,
+    "dealias_control": true,
+    "hermitian_control": true,
+    "energy_budget_control": true,
+    "resolution_control": true
+  },
+  "numerical_pass": true,
+  "stationarity": {
+    "ready": true,
+    "pass": true,
+    "window_time_requested": 15.0,
+    "window_span": 14.900000000002168,
+    "n_window_samples": 150,
+    "mean_energy": 0.5633370821895268,
+    "mean_dissipation": 0.09966584143366354,
+    "dissipation_to_input_ratio": 0.9966584143366354,
+    "energy_linear_slope": -0.00018671737768755778,
+    "normalized_energy_drift": 0.004938586532830126,
+    "half_window_energy_shift": 0.005551794290076555,
+    "energy_coefficient_of_variation": 0.016985026752282823,
+    "dissipation_coefficient_of_variation": 0.05094279760858006,
+    "minimum_kmax_eta": 1.5729513827994108,
+    "checks": {
+      "mean_dissipation_balance": true,
+      "energy_drift_small": true,
+      "half_window_shift_small": true,
+      "resolution_adequate": true
+    }
+  },
+  "stationarity_pass": true,
+  "pass": true
+}

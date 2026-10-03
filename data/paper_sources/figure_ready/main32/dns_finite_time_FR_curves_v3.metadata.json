@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/main32/dns_finite_time_FR_curves_v3.csv",
+  "original_source_path": "phase_ensemble_v1/runs/64_reference_dns/finite_time_v3/finite_time_FR_curves_v3.csv",
+  "source_sha256": "9b6bea07ee8ad826fdebcf31497e5de42b2d689d2f57192eb857abefc829fff0",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Per-seed/released values and DNS comparators, copied unchanged; metric/statistic/scale/window columns retain source selectors. Frozen FIG2 normalized means use <\u03a0>/\u03c3(\u03a0) for instantaneous and <I>/\u03c3(I) for finite-time metrics; sign-bias metrics remain source-defined.",
+  "units_and_normalization": "Dimensionless normalized values or source-declared observables; retain source metric names and run metadata.",
+  "validation_status": "FIG2 validated tables; spectral QC/audit records retained; no upstream recomputation.",
+  "validation_provenance": "Gate 2 source manifest, SHA256SUMS, run metadata and spectral audit",
+  "scientific_values_modified": false
+}

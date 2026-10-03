@@ -1,0 +1,16 @@
+{
+  "domain": "[0,6.283185307179586]^3, triply periodic",
+  "fourier_convention": "u(x)=sum_k uhat(k) exp(i k_phys dot x), uhat=FFTN(u)/N^3",
+  "mean_flux": "A=-<Sbar_ij tau_ij>",
+  "tau": "tau_ij=overline(u_i u_j)-ubar_i ubar_j",
+  "bispectral_identity": "A=sum_{k+p+q=0,i,j} K_j(k,p,q) Im[uhat_i(k) uhat_i(p) uhat_j(q)]",
+  "kernel": "K_j=d_j(k) G(k) [G(k)-G(p)G(q)]",
+  "filter": "G(k)=exp[-0.5 sigma^2 |k_phys|^2], sigma=filter_width*dx/sqrt(12)",
+  "spectral_derivative": "d_j(k)=k_phys,j",
+  "d4_derivative": "d_j(k)=sin(k_phys,j dx)[4-cos(k_phys,j dx)]/(3 dx)",
+  "audit_A": "N=16, |k_j|<=3, ordinary closed triads, no padding required for the zero mode",
+  "audit_B": "N=16, Nyquist planes removed, physical cubic functional evaluated on 32^3 grid by factor-two Fourier padding",
+  "padding_3_over_2_role": "diagnostic sensitivity comparison only; not a pass criterion",
+  "transfer_bound": "T=sum |K_j| |uhat_i(k)uhat_i(p)uhat_j(q)|",
+  "organization": "C_phi=A/T, with |C_phi|<=1"
+}

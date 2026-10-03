@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/spectral_energy/gate3_exact_bispectrum_16cube_smoke/gate3_phase_qc.csv",
+  "original_source_path": "phase_ensemble_v1/audits/gate3_exact_bispectrum_16cube_smoke/gate3_phase_qc.csv",
+  "source_sha256": "1b12210a68c8170ce7a98f020cc25b13ef8cdbb85e2cd6d357819930cd73de6b",
+  "transformation": "Byte-for-byte copy; no values, row order, labels, or precision were changed.",
+  "observable_definition": "Gate 3 smoke phase-mask Hermitian/unit-modulus QC diagnostics; source rows retained.",
+  "units_and_normalization": "Source-defined numerical error diagnostics; consult phase audit convention.",
+  "validation_status": "Separate smoke audit bundle; status is not merged with formal Gate 3 audit.",
+  "validation_provenance": "Gate 3 exact-bispectrum audit bundle and adjacent kernel/phase convention records.",
+  "scientific_values_modified": false
+}

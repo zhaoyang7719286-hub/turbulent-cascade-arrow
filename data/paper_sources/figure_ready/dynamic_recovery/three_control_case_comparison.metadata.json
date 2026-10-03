@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/dynamic_recovery/three_control_case_comparison.csv",
+  "original_source_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/three_control_case_comparison.csv",
+  "source_sha256": "a28c5105ac3d3614fb9821b877e3dd6ba451c2b902aa63cc7f93dda6da496e29",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Recovery trajectories and matched case/checkpoint/mask summaries copied verbatim. FIG3 scalar metric is <\u03a0>/<|\u03a0|>, distinct from FIG2 <\u03a0>/\u03c3(\u03a0).",
+  "units_and_normalization": "Source-defined normalized scalar; audit records specify time and case units.",
+  "validation_status": "FIG3 Gate 2 PASS: 151 source hashes, 126 marks; nine crossed cases; endpoints traced.",
+  "validation_provenance": "FIG3 Gate 2 certification and heldout/amplitude-matched aggregate audits",
+  "scientific_values_modified": false
+}

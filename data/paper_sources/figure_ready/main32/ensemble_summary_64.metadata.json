@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/main32/ensemble_summary_64.csv",
+  "original_source_path": "phase_ensemble_v1/releases/64_main32_v1/ensemble_summary_64.csv",
+  "source_sha256": "0f80af7f7ebe4aaef9fb3a64ced938110d786a0c2b659e341a8e2c79757a4db2",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Per-seed/released values and DNS comparators, copied unchanged; metric/statistic/scale/window columns retain source selectors. Frozen FIG2 normalized means use <\u03a0>/\u03c3(\u03a0) for instantaneous and <I>/\u03c3(I) for finite-time metrics; sign-bias metrics remain source-defined.",
+  "units_and_normalization": "Dimensionless normalized values or source-declared observables; retain source metric names and run metadata.",
+  "validation_status": "FIG2 validated tables; spectral QC/audit records retained; no upstream recomputation.",
+  "validation_provenance": "Gate 2 source manifest, SHA256SUMS, run metadata and spectral audit",
+  "scientific_values_modified": false
+}

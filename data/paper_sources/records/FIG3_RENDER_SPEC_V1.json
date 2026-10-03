@@ -1,0 +1,99 @@
+{
+  "figure_id": "fig3",
+  "version": "v1",
+  "gate": 5,
+  "status": "planning_only",
+  "render_authorized": false,
+  "date": "2026-09-26",
+  "frozen_inputs": {
+    "source_manifest": "publication_figures_rebuild_v1/fig3/metadata/source_manifest.json",
+    "source_manifest_sha256": "ef7fad71b0df09042252f5f264250d6af88df12da37255c87179cd737b614af2",
+    "provenance_record": "publication_figures_rebuild_v1/fig3/metadata/FIG3_GATE2_PROVENANCE_CERTIFICATION_V1.md",
+    "caption": "publication_figures_rebuild_v1/fig3/metadata/FIG3_CAPTION_FREEZE_V1.md",
+    "visual_grammar": "publication_figures_rebuild_v1/fig3/metadata/FIG3_VISUAL_GRAMMAR_FREEZE_V1.md",
+    "design_spec": "publication_figures_rebuild_v1/fig3/metadata/FIG3_DESIGN_SPEC_V1.md"
+  },
+  "planned_scripts": {
+    "builder": "publication_figures_rebuild_v1/fig3/scripts/build_fig3_v1.py",
+    "preflight": "publication_figures_rebuild_v1/fig3/scripts/preflight_fig3_v1.py"
+  },
+  "planned_environment": {
+    "python_environment": ".venv_figures",
+    "dependencies": ["Python 3", "NumPy", "pandas", "Matplotlib", "project-approved vector backend", "project-installed fonts"],
+    "exact_versions_recorded_at_build_time": true,
+    "network_access": false,
+    "random_resampling": false
+  },
+  "planned_output_directory": "publication_figures_rebuild_v1/fig3/outputs/fig3_v1/",
+  "planned_outputs": ["fig3_master.svg", "fig3_master.pdf", "fig3_master.png", "render_record.json"],
+  "panel_layout": {
+    "arrangement": "A full-width compact top row; B and C in lower row, B wider than C",
+    "reading_order": ["A", "B", "C"],
+    "relative_importance": {"B": "primary", "C": "secondary", "A": "tertiary explanatory"}
+  },
+  "panels": {
+    "A": {
+      "role": "protocol schematic, no quantitative data marks",
+      "objects": ["natural reference", "common phase-perturbed start", "NL branch", "LIN branch", "constructed FRZ branch"],
+      "frz_visual_cue": "explicit modal-amplitude and initial-randomized-direction recombination; do not depict as ordinary autonomous solver branch"
+    },
+    "B": {
+      "role": "scalar recovery trajectories",
+      "checkpoint": 2250,
+      "masks": [2026074101, 2026074102, 2026074103],
+      "time_interval": [0.0, 1.0],
+      "time_step": 0.1,
+      "facets": 3,
+      "branch_sample_count": 99,
+      "trajectory_rule": "recorded time-ordered samples, unsmoothed; matched natural reference; no uncertainty bands or pooled curves"
+    },
+    "C": {
+      "role": "matched endpoint comparison",
+      "checkpoints": [1750, 2250, 2750],
+      "masks": [2026074101, 2026074102, 2026074103],
+      "design": "3 checkpoints crossed with 3 masks; nine matched cases, not independent simulations",
+      "endpoint_time": 1.0,
+      "branches_per_case": ["NL", "LIN", "FRZ"],
+      "mark_count": 27,
+      "grouping": "three visible mask-specific branch triplets within each checkpoint; no aggregation"
+    }
+  },
+  "observable": {
+    "flux_scale": "box-filter scale 8 cells",
+    "X_definition": "X_b(t) = <Pi_ell>_x / <|Pi_ell|>_x",
+    "R_definition": "R_b(t) = 1 - |X_b(t) - X_nat(t)| / D0",
+    "D0_definition": "fixed case-specific |X_nat(0) - X_pert(0)| > 0",
+    "fig2_distinction": "FIG2 is <Pi>/sigma(Pi); do not substitute or reuse this normalization",
+    "negative_values": "retain"
+  },
+  "branch_encoding": {
+    "NL": {"color": "dark blue", "line": "solid", "marker": "filled circle"},
+    "LIN": {"color": "vermilion", "line": "dashed", "marker": "open square"},
+    "FRZ": {"color": "dark green", "line": "dash-dot", "marker": "open triangle", "annotation": "constructed"},
+    "natural_reference": {"color": "neutral charcoal", "line": "thin dotted", "role": "reference, not an intervention branch"},
+    "grayscale_redundancy": ["line style", "marker shape"]
+  },
+  "validation_requirements": {
+    "manifest_sha256_matches_gate2": true,
+    "source_files_hash_verified": 151,
+    "quantitative_marks_resolve": 126,
+    "panel_b_branch_samples": 99,
+    "panel_c_case_count": 9,
+    "panel_c_endpoint_mark_count": 27,
+    "numeric_tolerance": 1e-12,
+    "verify_case_branch_time_keys": true,
+    "verify_crossed_not_independent_design": true,
+    "verify_frz_construction": true,
+    "verify_observable_definition_and_scale": true,
+    "verify_no_extra_or_missing_rows": true,
+    "verify_caption_and_visual_grammar_identity": true
+  },
+  "interpretation_limits": [
+    "scalar recovery does not imply full-flow restoration",
+    "FRZ is a constructed trajectory",
+    "nine checkpoint-mask combinations are not independent simulations",
+    "generated-solver experiment is distinct from JHTDB",
+    "no population-level uncertainty inference"
+  ],
+  "no_render_or_data_modification_at_gate5": true
+}

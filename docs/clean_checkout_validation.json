@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "command": "python scripts/validate_repository.py",
+      "status": "PASS",
+      "seconds": 0.47
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "status": "PASS",
+      "seconds": 4.953
+    },
+    {
+      "command": "python code/numerics/test_spectral_dns_core.py",
+      "status": "PASS",
+      "seconds": 0.329
+    },
+    {
+      "command": "python scripts/reproduce_figures.py",
+      "status": "PASS",
+      "seconds": 8.771
+    },
+    {
+      "command": "python code/statistics/analyze_existing_tables.py",
+      "status": "PASS",
+      "seconds": 0.967
+    },
+    {
+      "command": "python scripts/run_dynamic_cases.py --smoke",
+      "status": "PASS",
+      "seconds": 7.857
+    }
+  ],
+  "environment_scope": "Fresh ZIP extraction using pinned installed Python dependencies; no fresh dependency installation or hosted GitHub execution"
+}

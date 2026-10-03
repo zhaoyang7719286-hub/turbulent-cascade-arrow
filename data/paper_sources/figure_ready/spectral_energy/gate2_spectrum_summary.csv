@@ -1,0 +1,3 @@
+field,k99_shell,total_energy_relative_error,max_shell_relative_error_within_k99,weighted_L1_relative_error,weighted_L2_relative_error
+star64,8,0.0,6.208056260912521e-16,2.5622120863639734e-17,1.7515302428186594e-17
+star32,8,3.803225013174245e-12,2.2765316982091182e-10,7.594597824026343e-12,4.333846890229013e-12

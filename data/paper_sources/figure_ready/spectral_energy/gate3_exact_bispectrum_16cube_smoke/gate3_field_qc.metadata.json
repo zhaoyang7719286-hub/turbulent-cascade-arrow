@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/spectral_energy/gate3_exact_bispectrum_16cube_smoke/gate3_field_qc.csv",
+  "original_source_path": "phase_ensemble_v1/audits/gate3_exact_bispectrum_16cube_smoke/gate3_field_qc.csv",
+  "source_sha256": "46ed2325408e59024aad42e62ec3615aee37f2ba0d2702eb959b6db3c05dec3d",
+  "transformation": "Byte-for-byte copy; no values, row order, labels, or precision were changed.",
+  "observable_definition": "Gate 3 smoke field-level QC diagnostics; smoke scope preserved.",
+  "units_and_normalization": "Field diagnostics as named; source-defined ratios/errors are dimensionless.",
+  "validation_status": "Separate smoke audit bundle; status is not merged with formal Gate 3 audit.",
+  "validation_provenance": "Gate 3 exact-bispectrum audit bundle and adjacent kernel/phase convention records.",
+  "scientific_values_modified": false
+}

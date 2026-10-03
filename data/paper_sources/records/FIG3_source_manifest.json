@@ -1,0 +1,4590 @@
+{
+  "schema_version": 1,
+  "figure_id": "fig3",
+  "version": "v1",
+  "gate": 1,
+  "status": "SCIENTIFIC DEFINITION PASS; Gate 2 certification pending",
+  "created_date": "2026-09-26",
+  "source_root": "legacy_workspace",
+  "sources": [
+    {
+      "id": "s001",
+      "path": "Main_Corrected.pdf",
+      "sha256": "a6d53a80d2c9980fa4e7b9a3d087525f946c5c228c6aef7b14e67108abf3d848",
+      "role": "historical manuscript; conflicting equation and scale labels superseded for FIG3 definition"
+    },
+    {
+      "id": "s002",
+      "path": "docs/FIG1_CAPTION_FREEZE_V3.md",
+      "sha256": "e77a9f3f05e24f72ac2011642a59528ddb21e4732a1682114de85754ac5516d1",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s003",
+      "path": "docs/FIG2_CAPTION_FREEZE_V1.md",
+      "sha256": "dc2c5ea0236a792508b26851858ca84dd539abcc7cf8edba57fdfa0881b5657f",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s004",
+      "path": "docs/FIG3_EVIDENCE_RECONCILIATION.md",
+      "sha256": "667ab3988f8fe5ead54e171a700934fa4730a4a57157bef05dd47b0c3000d620",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s005",
+      "path": "docs/FIG3_FINAL_DESIGN_SPEC.md",
+      "sha256": "3a41a24af0d3a93d3ff095a00bf5e5413bf9e3ce6a79471217e3530625bcf207",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s006",
+      "path": "docs/FIGURE_PIPELINE_EXECUTION_STATUS.md",
+      "sha256": "2334b8cf20b9726fb8c4e5cff6f0ccb6d2adbe45823b47c0d5ff5e63f309cf2e",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s007",
+      "path": "docs/FIGURE_RECONSTRUCTION_PLAN_V2.md",
+      "sha256": "026d5f247018842d92f45636e594ed519f72756fba29cb970e7625e882b801e6",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s008",
+      "path": "docs/FROZEN_MANUSCRIPT_SCOPE_V2.md",
+      "sha256": "6113227d62debf8b587de53aa38826f9c37521d66c7bdcfdadefc6d2129a381a",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s009",
+      "path": "docs/SOURCE_OF_TRUTH_LEDGER_V2.md",
+      "sha256": "bd40ad550037f9b9aeede0a0ae315fc0f6c3cbb3c7a69d9ec45bbfaf31c8fdea",
+      "role": "scientific scope or prior figure record"
+    },
+    {
+      "id": "s010",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074101/amplitude_match_audit.csv",
+      "sha256": "ce88821fe22276261be9a3c3da0cca6eadcd7b5696bc00a03f2c648ac507686d",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s011",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074101/amplitude_matched_counterfactual.csv",
+      "sha256": "96484b5b82597a995624d686c9e5d6669d1cb103816f08c11aefb919c4b60188",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s012",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074101/amplitude_matched_counterfactual_audit.json",
+      "sha256": "872fbe01fc6fa6fb9aedc11f02c21bca23afd9d0426d20ff52c9dcd72996178a",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s013",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074102/amplitude_match_audit.csv",
+      "sha256": "4456b94f185c67c3cf0bdea6ae33bd3935a944e54df9f0b00bd5cd3b8f5808b4",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s014",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074102/amplitude_matched_counterfactual.csv",
+      "sha256": "1c437d0d0b814e78aef2bb816f56c9772f18c7dcde0117f67618ada58c224e51",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s015",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074102/amplitude_matched_counterfactual_audit.json",
+      "sha256": "09ce991a1cecbbaebb7384aabe62ae20512896ba1d55e30fd07d85f01e9fc6ec",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s016",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074103/amplitude_match_audit.csv",
+      "sha256": "18c96ebcbf26f909bc858a9b1af436b78aa82aa6c2b5e5e9f34c8c01b8cddf80",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s017",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074103/amplitude_matched_counterfactual.csv",
+      "sha256": "0f20a9595ffaa35c7c4981e22b7a41593c267d636f0c945cb1c7f6ea15434a15",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s018",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074103/amplitude_matched_counterfactual_audit.json",
+      "sha256": "199f73964cf816a03f77607e705a96362e11d68278cf1cbf9d965d25a672afc0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s019",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_match_audit.csv",
+      "sha256": "276377db216231aa51367f1364d4ac2038fddce6ae5b143f7533d6ba6182667e",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s020",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv",
+      "sha256": "357bab101b865e0399324d135a15b78d6f1555628bca33b9bd1d662faa1798bd",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s021",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual_audit.json",
+      "sha256": "958c894dea4d8db5770380cbc68cbded3656ecae91585769345992cf2b522159",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s022",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_match_audit.csv",
+      "sha256": "cd007fe24f3552e9381f40d8aacef2037a76df02856162430b3b5e34461e43dd",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s023",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv",
+      "sha256": "fdf02ead32fa0a3f36038f1bf83a98025498289942aee4fed2b845e384212c10",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s024",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual_audit.json",
+      "sha256": "fdcd61270afeba7a728d5b146a1c53d6e53dde282ad2d5c769fe970838d0edf6",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s025",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_match_audit.csv",
+      "sha256": "ea39ee1de4a37106a3ab74cc56d5fc674ce53dc71014348d644784d93d817a93",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s026",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv",
+      "sha256": "d78ac5fcf4118e207064341630309cccafde7579ed45e8093c2b73fb902f0a00",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s027",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual_audit.json",
+      "sha256": "e5f0a2d91ffcbe65f83d94267aadbada2aecb6430a97bbf572f55c506b21c571",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s028",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074101/amplitude_match_audit.csv",
+      "sha256": "f1e9db36cfe67eee88316956c15fc4b496d9c770a08a59fc8f5d9fecd1f0c2cd",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s029",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074101/amplitude_matched_counterfactual.csv",
+      "sha256": "a9456665af7b31151a9f5561a145ada28a30206cc788db16f5533962a905c0a6",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s030",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074101/amplitude_matched_counterfactual_audit.json",
+      "sha256": "28bdbe59f1933b6ef54d6108ce72877ec81579a21127f248f5f9274e860fba1d",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s031",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074102/amplitude_match_audit.csv",
+      "sha256": "dc3cc2010139f1f8e5be2753bb7792fe78818ac5f2223cc44aca9a33e9e93bd9",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s032",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074102/amplitude_matched_counterfactual.csv",
+      "sha256": "3386c419ce7ff6708b97500d1ada80356ec7577e39e95aedc1a242b3caf484a5",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s033",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074102/amplitude_matched_counterfactual_audit.json",
+      "sha256": "9434e98c8f74b7c7a5467c324ee0609d4557d6fa88754da12bd70ec13ec53a2d",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s034",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074103/amplitude_match_audit.csv",
+      "sha256": "bd61c646fe425868f8d6a3d10d25adfc10b401fe1b55fbd78cfe9f5a5921bb03",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s035",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074103/amplitude_matched_counterfactual.csv",
+      "sha256": "a9b56e482002c8235f2e24eb39e20be41ffed3ddf74edb6e6ab14fc0614c25cd",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s036",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074103/amplitude_matched_counterfactual_audit.json",
+      "sha256": "1c06d28904707467b231b8f071feba5eccf3ec9c572666231770344d0f79417f",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s037",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_3x3_case_summary.csv",
+      "sha256": "e74cec90406e2e90e3855684ca0496323afdc3a8fbf365e6e09ce99d9681b8cc",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s038",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_3x3_gate_audit.json",
+      "sha256": "20c2d00a520dac91553a32eb1b74b2f192ca8e6052f9189f9024bb8090b6bb53",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s039",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_3x3_long.csv",
+      "sha256": "5437cbbbe1e1d8b663273039b362155461950813d5bd851bd5e19b8b044e555a",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s040",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_3x3_metric_summary.csv",
+      "sha256": "5c667bb99d102abe9b53b3b96f2e309e5c0aa0840a9107ec510bf4e8b7817784",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s041",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_3x3_numerical_audit.csv",
+      "sha256": "ea5751d403904fa077e5977f958ce4e0ee6268c5ec5fb2555c472aa2e78f7ca7",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s042",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_checkpoint_robustness.csv",
+      "sha256": "82ec7fd9cca97fc7503a4d837f289b90247ec4bcc9930750e9c7c107082b54a3",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s043",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/amplitude_matched_seed_robustness.csv",
+      "sha256": "296efe138ebec263cb83e5d4136373e78b991dca9ef43937762611a12c832a64",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s044",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/three_control_case_comparison.csv",
+      "sha256": "a28c5105ac3d3614fb9821b877e3dd6ba451c2b902aa63cc7f93dda6da496e29",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s045",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3_aggregate/three_control_metric_hierarchy.csv",
+      "sha256": "22c95a4b3f98246c4d690cd4a7ac18ca8170ca56aad265b2891fbdd75d7970a8",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s046",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/initial_perturbation_audit.json",
+      "sha256": "e68dd4da161a5ed32adb1dd56b9fc773cbc96dc5fed202b4484a69ef84c7022e",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s047",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/linear_control/audit.json",
+      "sha256": "5e9e855098f4c08adcccc4fa0ec37f765c708dd18c12663b5a8c6ff4758ae6c0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s048",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/linear_control/diagnostics.csv",
+      "sha256": "ee519fbd03d4e0e6dc64c7d21de1b583ed2e0beb90871b34764cd60db1d82cf5",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s049",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/natural/audit.json",
+      "sha256": "b20fc7e36e4bbda4bc0ead606cfc52817eddd33b92b7aeb52bcd8cb6d832b863",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s050",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/natural/diagnostics.csv",
+      "sha256": "fd21ba328cd1e321b18affe0ee5f87584f3f3196fe87be24b79077fccdea11d1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s051",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/nonlinear_recovery/audit.json",
+      "sha256": "9aef21e953e31096993bb194ad64f5253a83a3eb45d4890126aa054950aee02b",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s052",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/nonlinear_recovery/diagnostics.csv",
+      "sha256": "5511cde58f54e7ebd93276d426ef9a71e3fa74fb9544f6dd7210cef89c56b711",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s053",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/recovery_diagnostics_all_branches.csv",
+      "sha256": "82803d570267c49528cc507b07847aed34e026e72744efd160cb5e1efc827f84",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s054",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/recovery_smoke_audit.json",
+      "sha256": "d72bb0df05cc8a4d442344ed01453a9f87135fb07cfa085c12455596a6b63d65",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s055",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/initial_perturbation_audit.json",
+      "sha256": "36a213b98325570ba93d58984f6eedb0bca94cfa9f73b138eb8938b6ac09df6d",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s056",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/linear_control/audit.json",
+      "sha256": "fa68220f74fe3be99305fde682814c2e7c7b25f723c4d7c49c02eee22aca9f6e",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s057",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/linear_control/diagnostics.csv",
+      "sha256": "fd1b182c3e69157977e7aa0b9538ed6608b112fa6862a7203c07a7625d226d95",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s058",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/natural/audit.json",
+      "sha256": "b20fc7e36e4bbda4bc0ead606cfc52817eddd33b92b7aeb52bcd8cb6d832b863",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s059",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/natural/diagnostics.csv",
+      "sha256": "fd21ba328cd1e321b18affe0ee5f87584f3f3196fe87be24b79077fccdea11d1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s060",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/nonlinear_recovery/audit.json",
+      "sha256": "2b1dc685da8bf5f47854b4fd1c1cad9fcec604a9f841eb48e400c4b3d9254cbc",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s061",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/nonlinear_recovery/diagnostics.csv",
+      "sha256": "f4be9cf72f6b9af3fdc959a4fff680f2edfeb465668f70f18d4778dcb24395c3",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s062",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/recovery_diagnostics_all_branches.csv",
+      "sha256": "aa7732bf6dbcb57897d211966c6929472d4a8c0bd53344e6cb1d5319283ea598",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s063",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/recovery_smoke_audit.json",
+      "sha256": "d063408d80e3fc9f6952dccc084b4a547b0d895b4505cf181a2b8fe437f81272",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s064",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/initial_perturbation_audit.json",
+      "sha256": "73dfe64d181df5398f2fcd2ffd0909e18621546149f7c0f027e9bd1b0fc987de",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s065",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/linear_control/audit.json",
+      "sha256": "da4648d2dd71853dbb3f0a44f891685b4a1e632e420e2d755e76f06de558e277",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s066",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/linear_control/diagnostics.csv",
+      "sha256": "24151a6ff46240c13aaa255acb25f5b65861fc9bfb75158f74c7044c88551500",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s067",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/natural/audit.json",
+      "sha256": "b20fc7e36e4bbda4bc0ead606cfc52817eddd33b92b7aeb52bcd8cb6d832b863",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s068",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/natural/diagnostics.csv",
+      "sha256": "fd21ba328cd1e321b18affe0ee5f87584f3f3196fe87be24b79077fccdea11d1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s069",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/nonlinear_recovery/audit.json",
+      "sha256": "a55a7f489cc5c7875339d0f88c7f6056fcb86f541fec7fd7f3b712990f8103c2",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s070",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/nonlinear_recovery/diagnostics.csv",
+      "sha256": "77580317920b007f6b8393b34b6223ce54e9c3977f6b18f2441bdfa158b4906c",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s071",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/recovery_diagnostics_all_branches.csv",
+      "sha256": "dd9cead8de16584cb3cce0e0b14748b67875b525fabc07367bbe3207cefab158",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s072",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/recovery_smoke_audit.json",
+      "sha256": "103193e22605bbadec13dfc7b2d529c04dc5699137788670bbd9e6be1304d000",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s073",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/initial_perturbation_audit.json",
+      "sha256": "bf8c8e0d4c5aedeb95bf776c5c03380bf4e5a18dea9f97d907c5a0d2ceffa727",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s074",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/linear_control/audit.json",
+      "sha256": "ab4b6a89c7c6ec217e988cf168046110f2c79406843f9277b0689615fdce0f53",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s075",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/linear_control/diagnostics.csv",
+      "sha256": "4b50ef012b5fb4e1ce92ae667ebdcb2c5e91be6d2dc797cf2460b8c73fb3d929",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s076",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/natural/audit.json",
+      "sha256": "b457994a2c8e517bc2cb73d1656c3185cecb9621c452d175423a9c67be2d28cf",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s077",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/natural/diagnostics.csv",
+      "sha256": "e6abf377b39b6bc9e8072a56eeb18eb526fab9fe4bfac361ffae8dace30f8cc6",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s078",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/nonlinear_recovery/audit.json",
+      "sha256": "4124616a0dbc40f9d03ec8dc0555125e68abd8e8d87b8200fb82ab7be3104e13",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s079",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/nonlinear_recovery/diagnostics.csv",
+      "sha256": "e0308eb270327506735d766442ee60d5ba31942effb8387ad120883218528e17",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s080",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv",
+      "sha256": "eff0cdf670a81633abb016ddbfb1d1a1875bd6d57c82734c181bbc5ea0307d4b",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s081",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_smoke_audit.json",
+      "sha256": "d18269deb8c66267947cd4318f0ff4be5f8a5f837dcb9baeddf8263f8a594b0e",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s082",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/initial_perturbation_audit.json",
+      "sha256": "99a173476f74d7b65cbd6e7741148d68af6e216c467dcdd399df9107233cb086",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s083",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/linear_control/audit.json",
+      "sha256": "850a70b69805bf4dfd5ab518fb3e813c3103bdcb6e171f36491d44fde0f8f823",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s084",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/linear_control/diagnostics.csv",
+      "sha256": "c0f430343ab02734757c95390958a1454b4ce8165bf2f64055319f6db418ea26",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s085",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/natural/audit.json",
+      "sha256": "b457994a2c8e517bc2cb73d1656c3185cecb9621c452d175423a9c67be2d28cf",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s086",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/natural/diagnostics.csv",
+      "sha256": "e6abf377b39b6bc9e8072a56eeb18eb526fab9fe4bfac361ffae8dace30f8cc6",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s087",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/nonlinear_recovery/audit.json",
+      "sha256": "d60030c8352527b2d2762527b5c84d1ba77681d52661ba01a546995cd6e6a1b2",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s088",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/nonlinear_recovery/diagnostics.csv",
+      "sha256": "4018b48e8a06a620b886f8b487557bbf8b78680b35389b71b41981199f8abf90",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s089",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv",
+      "sha256": "5f69ef4767afd296651733f1de82e77f671c4e79e65e1db0e678d23b0da30d7c",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s090",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_smoke_audit.json",
+      "sha256": "5d1c26bc94c948b85ce99b1ab15fcfc4aae6922c921c3e148d2b94c4ca1bb66c",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s091",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/initial_perturbation_audit.json",
+      "sha256": "3864ac19579b4f25f2fdadc9a964acc435f2125a1f7584e8f392015e3ea78eee",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s092",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/linear_control/audit.json",
+      "sha256": "11a985f72eecb4412eb55e68a51da2fdd05cd44465db92f6f41ebd066ba9a04f",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s093",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/linear_control/diagnostics.csv",
+      "sha256": "f0ddc0ebf44fe047e5f01dd0fd6130f56ddf7c45217cd0875422ece388ba9f07",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s094",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/natural/audit.json",
+      "sha256": "b457994a2c8e517bc2cb73d1656c3185cecb9621c452d175423a9c67be2d28cf",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s095",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/natural/diagnostics.csv",
+      "sha256": "e6abf377b39b6bc9e8072a56eeb18eb526fab9fe4bfac361ffae8dace30f8cc6",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s096",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/nonlinear_recovery/audit.json",
+      "sha256": "627f3d0e25c346c3aafc1a7570210ce47fff21a966f52ea5e659994b921645f2",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s097",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/nonlinear_recovery/diagnostics.csv",
+      "sha256": "ef0315f71bfc1633e73444693629d0be0c0af33edcc1b1d3562c51abd257ffaf",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s098",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv",
+      "sha256": "e71090f6e5ac5e3664cc09685148bab700b9268af93e0917efe8bfdaf3d11c24",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s099",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_smoke_audit.json",
+      "sha256": "8d92c614a7284b5cebf4a9100cd038cab7c89f6f24cf7db4735cf3b64ed67a53",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s100",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/initial_perturbation_audit.json",
+      "sha256": "8edf6ff623b6afea5d1d65053ea254f3665547ac64692c0df9f6abb39cfbe388",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s101",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/linear_control/audit.json",
+      "sha256": "a1092f17357f90f34d8f79969841f2109b6fd1f61db51994bdb436969db8828d",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s102",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/linear_control/diagnostics.csv",
+      "sha256": "fd9636708ed2d02b97af800e23924bb1df0756b3db631b87377a26537c77c5b1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s103",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/natural/audit.json",
+      "sha256": "5a6800bd0feb842c65ec194dea3233410f1c0f193e6df94656f2365f54faa8b1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s104",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/natural/diagnostics.csv",
+      "sha256": "62da4ab790338e65800e9a38381b230de8e51fd4d1ae6ea360423c84af0a8938",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s105",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/nonlinear_recovery/audit.json",
+      "sha256": "aa95e4f5604605e8a091d42554a0530698c1ad041c8afefdbce74fbfa827f6f0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s106",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/nonlinear_recovery/diagnostics.csv",
+      "sha256": "6a605de140d6f75fe0777621fc235634d5429ddcd07be458f0b59c9534fdd731",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s107",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/recovery_diagnostics_all_branches.csv",
+      "sha256": "ca7c38033ca7613a2049ad9e85b0e223492624e8de8b00d40f8203ffbf32e2d0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s108",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/recovery_smoke_audit.json",
+      "sha256": "e858502dcfb0b3d744eb209e53f3d5369d701261b338165a1661040d554d159e",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s109",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/initial_perturbation_audit.json",
+      "sha256": "70321499e338002897865ff35cb3675727db9f2cc588ee8dfd7ab6df671e0657",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s110",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/linear_control/audit.json",
+      "sha256": "1e04f7dec73452c0b6842354912d133a42c9b1757a1f3f716e50c10cc601c56f",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s111",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/linear_control/diagnostics.csv",
+      "sha256": "37039f8e57224c145abbccf92194a7535c7d7b1b59a5f5948d2d157c08d50db8",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s112",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/natural/audit.json",
+      "sha256": "5a6800bd0feb842c65ec194dea3233410f1c0f193e6df94656f2365f54faa8b1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s113",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/natural/diagnostics.csv",
+      "sha256": "62da4ab790338e65800e9a38381b230de8e51fd4d1ae6ea360423c84af0a8938",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s114",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/nonlinear_recovery/audit.json",
+      "sha256": "ef068bb9e2c8ebaacdb60ccb8184fa4dc8aec4b9ec8d3f091fc9a2179962cfd0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s115",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/nonlinear_recovery/diagnostics.csv",
+      "sha256": "2802c5a8e593feb2ef8670099a59336514e568a99cb5fdd42518f43b592b38a0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s116",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/recovery_diagnostics_all_branches.csv",
+      "sha256": "46b7116b0724d23d602566d76901e1dffb9e8ad0bb9fa70887ddd11d4b432dca",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s117",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/recovery_smoke_audit.json",
+      "sha256": "edc866ea967da535de5c9aff3d52acdb5aa6227359ce9708e372556e4399f6fd",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s118",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/initial_perturbation_audit.json",
+      "sha256": "e82c5e46d490beacf2d0d8fa6934987cf658192e8bea17f663063e36f2981ca5",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s119",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/linear_control/audit.json",
+      "sha256": "7c0917fc23e505195b58e97ad6461d03d4f88d81bfbfb3b5a1baaa1c01fa5c05",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s120",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/linear_control/diagnostics.csv",
+      "sha256": "913695ed933b859108584e0da54394bf034eafae1fa2f5bce55659f5bf5c7c46",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s121",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/natural/audit.json",
+      "sha256": "5a6800bd0feb842c65ec194dea3233410f1c0f193e6df94656f2365f54faa8b1",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s122",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/natural/diagnostics.csv",
+      "sha256": "62da4ab790338e65800e9a38381b230de8e51fd4d1ae6ea360423c84af0a8938",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s123",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/nonlinear_recovery/audit.json",
+      "sha256": "95d2b82cba00e61ed84f8472577b8247c43eed27dfa3df8f5881bfd1b9a49265",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s124",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/nonlinear_recovery/diagnostics.csv",
+      "sha256": "d290c1bc147380f9eb0bbf62f6350243f5320ef95d748ced93a9fd81bfe8f5d3",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s125",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/recovery_diagnostics_all_branches.csv",
+      "sha256": "066bd10a34b24a8171104e712dbed6cf3264d5a0c19df9d7d5fcdbfe57f1bea0",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s126",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/recovery_smoke_audit.json",
+      "sha256": "139c0b7432ff664081ebc58afc668cdb6b660f7dd2d68eabf1c71547bcf08836",
+      "role": "original case diagnostic or QC"
+    },
+    {
+      "id": "s127",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_case_summary.csv",
+      "sha256": "64bb3e7d5e458be4525c369d5d4787f4a9a06830e9f3945ff0120324b4853934",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s128",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_checkpoint_robustness.csv",
+      "sha256": "13ee6be48b129ac6dd8afcb62f85ff26a3b250348544d9343563e1de254e22e0",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s129",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_gate_audit.json",
+      "sha256": "0bb73a28866f37adc34301206323248f9ab28d263057031fab0f62005585e857",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s130",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_metric_summary.csv",
+      "sha256": "6e2d8ac23ac610061731c5c4d6c4362f5f55e7ab925d906411c32614741c1e38",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s131",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_numerical_audit.csv",
+      "sha256": "2bc285e54742023adcff21e3fd7acd5dce01550276d650e39738b54af46e8347",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s132",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_raw_long.csv",
+      "sha256": "2b8295c49a9a9f52af6f8a0bfc6fba0ef2eeea0d353f1d45601b74d4ace51151",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s133",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_recovery_long.csv",
+      "sha256": "2ace93d21a6902c2e5bad30cd483a30da5fcca2b5a5cd4459173756a77fe283c",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s134",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_recovery_time_summary.csv",
+      "sha256": "e4eb202e5f5f1a50fa54efe8f2af84fdf4d06926d29a581fd81f71e39527920c",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s135",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3_aggregate/heldout_3x3_seed_robustness.csv",
+      "sha256": "007c046f9cdde5ff0c9d3f35731e47e2658d247d7a68a05562c892bab23ed435",
+      "role": "aggregate evidence or QC"
+    },
+    {
+      "id": "s136",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0001750.npz",
+      "sha256": "902f661f0c7a0556657a0370d645353256122f671119c8e1ae8b9d70b5252610",
+      "role": "generated DNS checkpoint"
+    },
+    {
+      "id": "s137",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002250.npz",
+      "sha256": "ee291a74a0a10e316cea9b9460cba970382709f7f3db695091956ad6f938ef6a",
+      "role": "generated DNS checkpoint"
+    },
+    {
+      "id": "s138",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002750.npz",
+      "sha256": "babc0b42a74850cefa4377c5a2fd9c5ebe8c5850187b8cb070eac27e9cb04158",
+      "role": "generated DNS checkpoint"
+    },
+    {
+      "id": "s139",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/spinup_audit.json",
+      "sha256": "d0a7bfac54e29ab3de3728c29efcc575d50f32fb57ec513181bbe374ea5d51e2",
+      "role": "solver provenance"
+    },
+    {
+      "id": "s140",
+      "path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/spinup_diagnostics.csv",
+      "sha256": "af30d395fb3d7232d4d52ba4ddaa3fb7a10473140f2e5d730d1ce5300ae196de",
+      "role": "solver provenance"
+    },
+    {
+      "id": "s141",
+      "path": "publication_figures_rebuild_v1/_pipeline/style/semantic_style.json",
+      "sha256": "32a23fd6f932948814a1719e973dd271c4245c80399067c7a7b71125764c615e",
+      "role": "shared style proposal basis"
+    },
+    {
+      "id": "s142",
+      "path": "publication_figures_rebuild_v1/fig2/final_freeze/final_manifest.json",
+      "sha256": "c0fb5e068b15a38ee15788121866711aa2d5ca40f5e7b80a9e0f4802b2ff2663",
+      "role": "previous figure final freeze"
+    },
+    {
+      "id": "s143",
+      "path": "scripts/aggregate_amplitude_matched_3x3.py",
+      "sha256": "5c5d0a277b1200c213e53490fb4338d2403ef6ff7b1c8b7a48931f46b1b99ef1",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s144",
+      "path": "scripts/aggregate_dynamic_recovery_heldout_3x3.py",
+      "sha256": "43f73955633131da3f4150dd00c51ca7eaf2a7be4769a952608e268d7be546a6",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s145",
+      "path": "scripts/compute_pop_amp_isotropic.py",
+      "sha256": "01a8fe931a09e0e201071a0104c1fcc5955930b4c07007319aab3daf42fcdd6e",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s146",
+      "path": "scripts/df_phase_randomization_gate_64cube.py",
+      "sha256": "76f6119fd16572459dbe5ddd3bd10d01dd9712440f3cebff673d48ad4fc49a98",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s147",
+      "path": "scripts/run_amplitude_matched_3x3.sh",
+      "sha256": "12f7bbab98b8236029f33458f846942bf724f47953ecd5bc39f64162c318f03e",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s148",
+      "path": "scripts/run_amplitude_matched_frozen_counterfactual.py",
+      "sha256": "67c6791b2f428675333b49dc9af6c74b6e7b00cde372bf1822c7e23803818c6c",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s149",
+      "path": "scripts/run_dynamic_recovery_heldout_3x3.sh",
+      "sha256": "a1e9c2bf98c88f3e9cfa64cf2eafb8b49a1e6e434bc695bc48ada7a75a951c42",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s150",
+      "path": "scripts/run_dynamic_recovery_smoke.py",
+      "sha256": "9c8811480cf9d089e62feea9e7a795ea5da1e069b4cdb57a944d23958a626139",
+      "role": "scientific method or aggregation script; read only"
+    },
+    {
+      "id": "s151",
+      "path": "scripts/spectral_dns_core.py",
+      "sha256": "5f040091e15a3a28a141840e0b13035820fa492841751b19718bf3fec7c8b159",
+      "role": "scientific method or aggregation script; read only"
+    }
+  ],
+  "marks": [
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 559,
+      "csv_line_1based": 560,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 560,
+      "csv_line_1based": 561,
+      "value": "0.2941768708853436",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 561,
+      "csv_line_1based": 562,
+      "value": "0.5276730989328613",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 562,
+      "csv_line_1based": 563,
+      "value": "0.6982778247746682",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 563,
+      "csv_line_1based": 564,
+      "value": "0.8166644219543991",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 564,
+      "csv_line_1based": 565,
+      "value": "0.8945352526272407",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 565,
+      "csv_line_1based": 566,
+      "value": "0.9438766858814017",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.7",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 566,
+      "csv_line_1based": 567,
+      "value": "0.976546234470318",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 567,
+      "csv_line_1based": 568,
+      "value": "0.999967135815909",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 568,
+      "csv_line_1based": 569,
+      "value": "0.981735010324229",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_nonlinear_recovery_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 569,
+      "csv_line_1based": 570,
+      "value": "0.9668804909895775",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 590,
+      "csv_line_1based": 591,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 591,
+      "csv_line_1based": 592,
+      "value": "0.007468158552572324",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 592,
+      "csv_line_1based": 593,
+      "value": "0.0161793747683735",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 593,
+      "csv_line_1based": 594,
+      "value": "0.026045230807600572",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 594,
+      "csv_line_1based": 595,
+      "value": "0.036837895017087674",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 595,
+      "csv_line_1based": 596,
+      "value": "0.04820600988342394",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 596,
+      "csv_line_1based": 597,
+      "value": "0.05998552177056227",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.7",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 597,
+      "csv_line_1based": 598,
+      "value": "0.0721291904370337",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 598,
+      "csv_line_1based": 599,
+      "value": "0.08445651178539926",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 599,
+      "csv_line_1based": 600,
+      "value": "0.09623248584896782",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_linear_control_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s080"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 600,
+      "csv_line_1based": 601,
+      "value": "0.1068783282674215",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 745,
+      "csv_line_1based": 746,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 746,
+      "csv_line_1based": 747,
+      "value": "0.28318178296440966",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 747,
+      "csv_line_1based": 748,
+      "value": "0.521335514425405",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 748,
+      "csv_line_1based": 749,
+      "value": "0.6962736259942113",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 749,
+      "csv_line_1based": 750,
+      "value": "0.8160213634255166",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 750,
+      "csv_line_1based": 751,
+      "value": "0.8954764589286561",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 751,
+      "csv_line_1based": 752,
+      "value": "0.9469398698881951",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.7",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 752,
+      "csv_line_1based": 753,
+      "value": "0.9800449065776204",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 753,
+      "csv_line_1based": 754,
+      "value": "0.9986829932874344",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 754,
+      "csv_line_1based": 755,
+      "value": "0.9852483691884929",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_nonlinear_recovery_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 755,
+      "csv_line_1based": 756,
+      "value": "0.9773940769947779",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 776,
+      "csv_line_1based": 777,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 777,
+      "csv_line_1based": 778,
+      "value": "-0.0008675579345571727",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 778,
+      "csv_line_1based": 779,
+      "value": "-0.00047122502619045825",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 779,
+      "csv_line_1based": 780,
+      "value": "0.0010731633940515017",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 780,
+      "csv_line_1based": 781,
+      "value": "0.0035579895697278596",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 781,
+      "csv_line_1based": 782,
+      "value": "0.006683975806943465",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 782,
+      "csv_line_1based": 783,
+      "value": "0.010296113160251363",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.7",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 783,
+      "csv_line_1based": 784,
+      "value": "0.014338035638323587",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 784,
+      "csv_line_1based": 785,
+      "value": "0.018649879189905016",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 785,
+      "csv_line_1based": 786,
+      "value": "0.022649337154384774",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074102_linear_control_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s089"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 786,
+      "csv_line_1based": 787,
+      "value": "0.02587322377289003",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 931,
+      "csv_line_1based": 932,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 932,
+      "csv_line_1based": 933,
+      "value": "0.2574372339891464",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 933,
+      "csv_line_1based": 934,
+      "value": "0.47622644314461393",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 934,
+      "csv_line_1based": 935,
+      "value": "0.6430979175941522",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 935,
+      "csv_line_1based": 936,
+      "value": "0.7644036176873311",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 936,
+      "csv_line_1based": 937,
+      "value": "0.8511710458261048",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 937,
+      "csv_line_1based": 938,
+      "value": "0.9123736257269625",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.7",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 938,
+      "csv_line_1based": 939,
+      "value": "0.9553695942458986",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 939,
+      "csv_line_1based": 940,
+      "value": "0.9867427980471746",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 940,
+      "csv_line_1based": 941,
+      "value": "0.9904627226038929",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_nonlinear_recovery_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "nonlinear_recovery",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 941,
+      "csv_line_1based": 942,
+      "value": "0.9746575922514586",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 962,
+      "csv_line_1based": 963,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 963,
+      "csv_line_1based": 964,
+      "value": "0.00356918957737129",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 964,
+      "csv_line_1based": 965,
+      "value": "0.00828243612901991",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 965,
+      "csv_line_1based": 966,
+      "value": "0.014052766507336334",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 966,
+      "csv_line_1based": 967,
+      "value": "0.020682833975240733",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 967,
+      "csv_line_1based": 968,
+      "value": "0.02788188924436752",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 968,
+      "csv_line_1based": 969,
+      "value": "0.03551131367495386",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.7",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 969,
+      "csv_line_1based": 970,
+      "value": "0.04352664539194373",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 970,
+      "csv_line_1based": 971,
+      "value": "0.05177507451928198",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 971,
+      "csv_line_1based": 972,
+      "value": "0.05965871762901498",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074103_linear_control_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s133",
+        "s098"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "linear_control",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "recovery"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 972,
+      "csv_line_1based": 973,
+      "value": "0.0667063638233154",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_diagnostics_all_branches.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 282,
+      "csv_line_1based": 283,
+      "value": "3.3306690738754696e-16",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 285,
+      "csv_line_1based": 286,
+      "value": "0.0711043179526682",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 288,
+      "csv_line_1based": 289,
+      "value": "0.111138313609858",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 291,
+      "csv_line_1based": 292,
+      "value": "0.1224636680153975",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 294,
+      "csv_line_1based": 295,
+      "value": "0.1188755590639091",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 297,
+      "csv_line_1based": 298,
+      "value": "0.1128158287637534",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 300,
+      "csv_line_1based": 301,
+      "value": "0.1068269827646214",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.7000000000000001",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7000000000000001"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7000000000000001",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 303,
+      "csv_line_1based": 304,
+      "value": "0.1053712937651103",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 306,
+      "csv_line_1based": 307,
+      "value": "0.1061747531477295",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 309,
+      "csv_line_1based": 310,
+      "value": "0.1030338331915682",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074101_amplitude_matched_frozen_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s020"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 312,
+      "csv_line_1based": 313,
+      "value": "0.0993627442694764",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 375,
+      "csv_line_1based": 376,
+      "value": "0.0",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 378,
+      "csv_line_1based": 379,
+      "value": "0.060571770336862",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 381,
+      "csv_line_1based": 382,
+      "value": "0.0962647544376564",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 384,
+      "csv_line_1based": 385,
+      "value": "0.0991978199704823",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 387,
+      "csv_line_1based": 388,
+      "value": "0.081651287792551",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 390,
+      "csv_line_1based": 391,
+      "value": "0.0606639025236549",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 393,
+      "csv_line_1based": 394,
+      "value": "0.0416995549607531",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.7000000000000001",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7000000000000001"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7000000000000001",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 396,
+      "csv_line_1based": 397,
+      "value": "0.0297959675116866",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 399,
+      "csv_line_1based": 400,
+      "value": "0.0239027935238683",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 402,
+      "csv_line_1based": 403,
+      "value": "0.0200622132566122",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074102_amplitude_matched_frozen_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s023"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 405,
+      "csv_line_1based": 406,
+      "value": "0.0182653577105007",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.0",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.0"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 468,
+      "csv_line_1based": 469,
+      "value": "1.1102230246251563e-16",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.1",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.1"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.1",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 471,
+      "csv_line_1based": 472,
+      "value": "0.0594086537640032",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.2",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.2"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.2",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 474,
+      "csv_line_1based": 475,
+      "value": "0.1009635601385725",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.3",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.3"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.3",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 477,
+      "csv_line_1based": 478,
+      "value": "0.1205438112099221",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.4",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.4"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.4",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 480,
+      "csv_line_1based": 481,
+      "value": "0.1256908229255826",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.5",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.5"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.5",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 483,
+      "csv_line_1based": 484,
+      "value": "0.122360478803849",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.6",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.6"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.6",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 486,
+      "csv_line_1based": 487,
+      "value": "0.1156439272705818",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.7000000000000001",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.7000000000000001"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.7000000000000001",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 489,
+      "csv_line_1based": 490,
+      "value": "0.1086121076697588",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.8",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.8"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.8",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 492,
+      "csv_line_1based": 493,
+      "value": "0.1028741951992662",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t0.9",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "0.9"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 0.9",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 495,
+      "csv_line_1based": 496,
+      "value": "0.0946973057251898",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "B_2026074103_amplitude_matched_frozen_t1.0",
+      "panel": "B",
+      "source_ids": [
+        "s039",
+        "s026"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "branch": "amplitude_matched_frozen",
+        "metric": "Pi_normalized_mean",
+        "relative_time": "1.0"
+      },
+      "columns": [
+        "R_Pi_normalized_mean"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "instantaneous scalar at relative time 1.0",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "paired case audits pass; common initial gap and matched natural reference",
+      "expected_rows": 1,
+      "transformation": "identity: use stored recovery; no smoothing, clipping or rescaling",
+      "source_row_1based": 498,
+      "csv_line_1based": 499,
+      "value": "0.0834221199734025",
+      "original_case_path": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual.csv"
+    },
+    {
+      "id": "C_1750_2026074101_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "1750/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 19,
+      "csv_line_1based": 20,
+      "value": "0.978544397319154"
+    },
+    {
+      "id": "C_1750_2026074101_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "1750/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 19,
+      "csv_line_1based": 20,
+      "value": "0.0085165131526037"
+    },
+    {
+      "id": "C_1750_2026074101_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "1750/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 19,
+      "csv_line_1based": 20,
+      "value": "0.0948921913886485"
+    },
+    {
+      "id": "C_1750_2026074102_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "1750/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 20,
+      "csv_line_1based": 21,
+      "value": "0.972758979698335"
+    },
+    {
+      "id": "C_1750_2026074102_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "1750/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 20,
+      "csv_line_1based": 21,
+      "value": "-0.0137290660742548"
+    },
+    {
+      "id": "C_1750_2026074102_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "1750/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 20,
+      "csv_line_1based": 21,
+      "value": "0.0045000822947611"
+    },
+    {
+      "id": "C_1750_2026074103_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "1750/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 21,
+      "csv_line_1based": 22,
+      "value": "0.9904548037241626"
+    },
+    {
+      "id": "C_1750_2026074103_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "1750/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 21,
+      "csv_line_1based": 22,
+      "value": "0.0003803164252994"
+    },
+    {
+      "id": "C_1750_2026074103_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 1750,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "1750/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 21,
+      "csv_line_1based": 22,
+      "value": "0.0638521675335749"
+    },
+    {
+      "id": "C_2250_2026074101_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 22,
+      "csv_line_1based": 23,
+      "value": "0.9668804909895776"
+    },
+    {
+      "id": "C_2250_2026074101_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 22,
+      "csv_line_1based": 23,
+      "value": "0.1068783282674215"
+    },
+    {
+      "id": "C_2250_2026074101_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "2250/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 22,
+      "csv_line_1based": 23,
+      "value": "0.0993627442694764"
+    },
+    {
+      "id": "C_2250_2026074102_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 23,
+      "csv_line_1based": 24,
+      "value": "0.977394076994778"
+    },
+    {
+      "id": "C_2250_2026074102_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 23,
+      "csv_line_1based": 24,
+      "value": "0.02587322377289"
+    },
+    {
+      "id": "C_2250_2026074102_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "2250/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 23,
+      "csv_line_1based": 24,
+      "value": "0.0182653577105007"
+    },
+    {
+      "id": "C_2250_2026074103_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 24,
+      "csv_line_1based": 25,
+      "value": "0.9746575922514586"
+    },
+    {
+      "id": "C_2250_2026074103_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 24,
+      "csv_line_1based": 25,
+      "value": "0.0667063638233154"
+    },
+    {
+      "id": "C_2250_2026074103_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2250,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "2250/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 24,
+      "csv_line_1based": 25,
+      "value": "0.0834221199734025"
+    },
+    {
+      "id": "C_2750_2026074101_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "2750/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 25,
+      "csv_line_1based": 26,
+      "value": "0.9773841061368042"
+    },
+    {
+      "id": "C_2750_2026074101_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "2750/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 25,
+      "csv_line_1based": 26,
+      "value": "-0.1208874094245446"
+    },
+    {
+      "id": "C_2750_2026074101_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074101,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "2750/2026074101",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 25,
+      "csv_line_1based": 26,
+      "value": "-0.0091319185616067"
+    },
+    {
+      "id": "C_2750_2026074102_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "2750/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 26,
+      "csv_line_1based": 27,
+      "value": "0.9703885970993296"
+    },
+    {
+      "id": "C_2750_2026074102_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "2750/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 26,
+      "csv_line_1based": 27,
+      "value": "-0.0420960727990584"
+    },
+    {
+      "id": "C_2750_2026074102_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074102,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "2750/2026074102",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 26,
+      "csv_line_1based": 27,
+      "value": "0.0502307516267491"
+    },
+    {
+      "id": "C_2750_2026074103_NL",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_nonlinear_t1_amplitude_matched"
+      ],
+      "seed_case": "2750/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 27,
+      "csv_line_1based": 28,
+      "value": "0.9969172234137704"
+    },
+    {
+      "id": "C_2750_2026074103_LIN",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_linear_t1"
+      ],
+      "seed_case": "2750/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 27,
+      "csv_line_1based": 28,
+      "value": "-0.0047284513131888"
+    },
+    {
+      "id": "C_2750_2026074103_FRZ",
+      "panel": "C",
+      "source_ids": [
+        "s044"
+      ],
+      "selector": {
+        "checkpoint": 2750,
+        "phase_seed": 2026074103,
+        "metric": "Pi_normalized_mean"
+      },
+      "columns": [
+        "R_frozen_t1"
+      ],
+      "seed_case": "2750/2026074103",
+      "scale": 8,
+      "window": "relative time 1.0; not window accumulation",
+      "normalization": "X=spatial mean(Pi)/spatial mean(abs(Pi)); R=1-abs(X_branch(t)-X_natural(t))/abs(X_natural(0)-X_perturbed(0)); fixed case denominator",
+      "qc_condition": "both case audits pass; joined endpoint matches original t=1 rows within 1e-12",
+      "expected_rows": 1,
+      "transformation": "identity; preserve negative values; no pooling",
+      "source_row_1based": 27,
+      "csv_line_1based": 28,
+      "value": "-0.0134213011490749"
+    }
+  ],
+  "schematic_only_reason": "Panel A is protocol-only; no numerical marks. B and C are quantitative.",
+  "candidate_panel_counts": {
+    "A": 0,
+    "B": 99,
+    "C": 27
+  },
+  "cases": [
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074101,
+      "initial_gap": 0.8667856992842146,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074101/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074101/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0001750.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074102,
+      "initial_gap": 0.8136182758669916,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074102/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074102/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0001750.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074103,
+      "initial_gap": 0.8201131689628992,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_1750/seed_2026074103/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_1750/seed_2026074103/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0001750.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074101,
+      "initial_gap": 0.7528974114369058,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074101/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074101/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002250.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074102,
+      "initial_gap": 0.9758632242171883,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074102/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074102/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002250.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074103,
+      "initial_gap": 0.9323790353035724,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2250/seed_2026074103/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2250/seed_2026074103/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002250.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074101,
+      "initial_gap": 0.9497786386245831,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074101/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074101/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002750.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074102,
+      "initial_gap": 0.9876049175941836,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074102/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074102/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002750.npz",
+      "recorded_qc_pass": true
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074103,
+      "initial_gap": 0.7635809644396646,
+      "heldout_audit": "phase_ensemble_v1/summaries/dynamic_recovery/heldout_3x3/checkpoint_2750/seed_2026074103/recovery_smoke_audit.json",
+      "amplitude_audit": "phase_ensemble_v1/summaries/dynamic_recovery/amplitude_matched_3x3/checkpoint_2750/seed_2026074103/amplitude_matched_counterfactual_audit.json",
+      "checkpoint_path": "phase_ensemble_v1/summaries/dynamic_recovery/spinup_N64/checkpoints/checkpoint_step_0002750.npz",
+      "recorded_qc_pass": true
+    }
+  ],
+  "scientific_definition": {
+    "metric": "Pi_normalized_mean",
+    "X": "mean(Pi)/mean(abs(Pi)); spatial samples at each output time",
+    "R": "1-abs(X_branch(t)-X_natural(t))/D0",
+    "D0": "abs(X_natural(0)-X_perturbed(0)) > 1e-10; fixed per case",
+    "filter": "periodic box filter of width 8 grid cells; spectral gradients",
+    "time": "relative simulation time, dt=0.01; diagnostics at 0.1 intervals; selected 0..1",
+    "branch_mapping": {
+      "NL": "nonlinear_recovery",
+      "LIN": "linear_control",
+      "FRZ": "amplitude_matched_frozen"
+    }
+  },
+  "verification": {
+    "scope": "read-only feasibility and selected-row checks; not formal Gate 2 exit",
+    "nine_paired_audits_pass": true,
+    "original_to_aggregate_selected_scalar_and_recovery_matches": true,
+    "comparison_t1_matches_original_rows": true,
+    "tolerance_abs_rel": 1e-12,
+    "max_observed_heldout_recovery_recompute_error": 2.220446049250313e-16,
+    "nonlinear_endpoint_exceeds_both_controls_cases": 9,
+    "negative_control_values_retained": true,
+    "figure_rendered": false
+  },
+  "pending_gate2": [
+    "Formal complete join/uniqueness/time-grid audit and durable executable verification record",
+    "Verify all field-level matched-start/forcing and FRZ amplitude audit details; do not infer identical forcing vectors from the same law",
+    "Validate this manifest and certify every original-to-aggregate mark link before rendering"
+  ],
+  "excluded": [
+    "scale 4 main panels",
+    "t=3 and AUC marks",
+    "dynamic FRZ geometry M marks",
+    "cumulant/Gate studies",
+    "JHTDB observations pooled with generated DNS"
+  ]
+}

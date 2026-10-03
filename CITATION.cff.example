@@ -1,0 +1,11 @@
+# Inactive template: resolve authorship and URL before renaming to CITATION.cff.
+cff-version: 1.2.0
+message: "Please cite the paper and the specific repository release used."
+type: software
+title: "Turbulent cascade arrow: reproduction code and numerical records"
+version: "0.1.0"
+repository-code: "https://github.com/OWNER/REPOSITORY"
+authors:
+  - family-names: "TO_BE_AGREED"
+    given-names: "TO_BE_AGREED"
+# Add license, paper identifier, and archive DOI only after they are assigned.

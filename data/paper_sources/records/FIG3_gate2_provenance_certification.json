@@ -1,0 +1,374 @@
+{
+  "figure_id": "fig3",
+  "version": "v1",
+  "gate": 2,
+  "status": "PASS",
+  "decision_date": "2026-09-26",
+  "source_manifest_path": "publication_figures_rebuild_v1/fig3/metadata/source_manifest.json",
+  "source_manifest_sha256": "ef7fad71b0df09042252f5f264250d6af88df12da37255c87179cd737b614af2",
+  "sources_verified": 151,
+  "all_sources_exist": true,
+  "all_source_hashes_match": true,
+  "manifest_marks": 126,
+  "manifest_rows_resolved": 126,
+  "panel_B_original_case_rows_verified": 99,
+  "panel_C_endpoints_verified": 27,
+  "case_mappings": [
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074101,
+      "initial_gap_D0": 0.8667856992842146,
+      "heldout_audit_sha256": "d72bb0df05cc8a4d442344ed01453a9f87135fb07cfa085c12455596a6b63d65",
+      "perturbation_audit_sha256": "e68dd4da161a5ed32adb1dd56b9fc773cbc96dc5fed202b4484a69ef84c7022e",
+      "frz_audit_sha256": "872fbe01fc6fa6fb9aedc11f02c21bca23afd9d0426d20ff52c9dcd72996178a",
+      "checkpoint_sha256": "902f661f0c7a0556657a0370d645353256122f671119c8e1ae8b9d70b5252610",
+      "max_modal_amplitude_relative_error": 6.470553216155844e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074102,
+      "initial_gap_D0": 0.8136182758669916,
+      "heldout_audit_sha256": "d063408d80e3fc9f6952dccc084b4a547b0d895b4505cf181a2b8fe437f81272",
+      "perturbation_audit_sha256": "36a213b98325570ba93d58984f6eedb0bca94cfa9f73b138eb8938b6ac09df6d",
+      "frz_audit_sha256": "09ce991a1cecbbaebb7384aabe62ae20512896ba1d55e30fd07d85f01e9fc6ec",
+      "checkpoint_sha256": "902f661f0c7a0556657a0370d645353256122f671119c8e1ae8b9d70b5252610",
+      "max_modal_amplitude_relative_error": 5.784607107163848e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074103,
+      "initial_gap_D0": 0.8201131689628992,
+      "heldout_audit_sha256": "103193e22605bbadec13dfc7b2d529c04dc5699137788670bbd9e6be1304d000",
+      "perturbation_audit_sha256": "73dfe64d181df5398f2fcd2ffd0909e18621546149f7c0f027e9bd1b0fc987de",
+      "frz_audit_sha256": "199f73964cf816a03f77607e705a96362e11d68278cf1cbf9d965d25a672afc0",
+      "checkpoint_sha256": "902f661f0c7a0556657a0370d645353256122f671119c8e1ae8b9d70b5252610",
+      "max_modal_amplitude_relative_error": 6.420570876424283e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074101,
+      "initial_gap_D0": 0.7528974114369058,
+      "heldout_audit_sha256": "d18269deb8c66267947cd4318f0ff4be5f8a5f837dcb9baeddf8263f8a594b0e",
+      "perturbation_audit_sha256": "bf8c8e0d4c5aedeb95bf776c5c03380bf4e5a18dea9f97d907c5a0d2ceffa727",
+      "frz_audit_sha256": "958c894dea4d8db5770380cbc68cbded3656ecae91585769345992cf2b522159",
+      "checkpoint_sha256": "ee291a74a0a10e316cea9b9460cba970382709f7f3db695091956ad6f938ef6a",
+      "max_modal_amplitude_relative_error": 6.030022210140129e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074102,
+      "initial_gap_D0": 0.9758632242171883,
+      "heldout_audit_sha256": "5d1c26bc94c948b85ce99b1ab15fcfc4aae6922c921c3e148d2b94c4ca1bb66c",
+      "perturbation_audit_sha256": "99a173476f74d7b65cbd6e7741148d68af6e216c467dcdd399df9107233cb086",
+      "frz_audit_sha256": "fdcd61270afeba7a728d5b146a1c53d6e53dde282ad2d5c769fe970838d0edf6",
+      "checkpoint_sha256": "ee291a74a0a10e316cea9b9460cba970382709f7f3db695091956ad6f938ef6a",
+      "max_modal_amplitude_relative_error": 5.747050221179384e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074103,
+      "initial_gap_D0": 0.9323790353035724,
+      "heldout_audit_sha256": "8d92c614a7284b5cebf4a9100cd038cab7c89f6f24cf7db4735cf3b64ed67a53",
+      "perturbation_audit_sha256": "3864ac19579b4f25f2fdadc9a964acc435f2125a1f7584e8f392015e3ea78eee",
+      "frz_audit_sha256": "e5f0a2d91ffcbe65f83d94267aadbada2aecb6430a97bbf572f55c506b21c571",
+      "checkpoint_sha256": "ee291a74a0a10e316cea9b9460cba970382709f7f3db695091956ad6f938ef6a",
+      "max_modal_amplitude_relative_error": 6.439005886082985e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074101,
+      "initial_gap_D0": 0.9497786386245831,
+      "heldout_audit_sha256": "e858502dcfb0b3d744eb209e53f3d5369d701261b338165a1661040d554d159e",
+      "perturbation_audit_sha256": "8edf6ff623b6afea5d1d65053ea254f3665547ac64692c0df9f6abb39cfbe388",
+      "frz_audit_sha256": "28bdbe59f1933b6ef54d6108ce72877ec81579a21127f248f5f9274e860fba1d",
+      "checkpoint_sha256": "babc0b42a74850cefa4377c5a2fd9c5ebe8c5850187b8cb070eac27e9cb04158",
+      "max_modal_amplitude_relative_error": 6.133690005460469e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074102,
+      "initial_gap_D0": 0.9876049175941836,
+      "heldout_audit_sha256": "edc866ea967da535de5c9aff3d52acdb5aa6227359ce9708e372556e4399f6fd",
+      "perturbation_audit_sha256": "70321499e338002897865ff35cb3675727db9f2cc588ee8dfd7ab6df671e0657",
+      "frz_audit_sha256": "9434e98c8f74b7c7a5467c324ee0609d4557d6fa88754da12bd70ec13ec53a2d",
+      "checkpoint_sha256": "babc0b42a74850cefa4377c5a2fd9c5ebe8c5850187b8cb070eac27e9cb04158",
+      "max_modal_amplitude_relative_error": 5.967473424918229e-16,
+      "time_samples_per_branch": 31
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074103,
+      "initial_gap_D0": 0.7635809644396646,
+      "heldout_audit_sha256": "139c0b7432ff664081ebc58afc668cdb6b660f7dd2d68eabf1c71547bcf08836",
+      "perturbation_audit_sha256": "e82c5e46d490beacf2d0d8fa6934987cf658192e8bea17f663063e36f2981ca5",
+      "frz_audit_sha256": "1c06d28904707467b231b8f071feba5eccf3ec9c572666231770344d0f79417f",
+      "checkpoint_sha256": "babc0b42a74850cefa4377c5a2fd9c5ebe8c5850187b8cb070eac27e9cb04158",
+      "max_modal_amplitude_relative_error": 6.215326769855906e-16,
+      "time_samples_per_branch": 31
+    }
+  ],
+  "panel_C_traceability": [
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074101,
+      "branch": "NL",
+      "joined_row_1based": 19,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.978544397319154"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074101,
+      "branch": "LIN",
+      "joined_row_1based": 19,
+      "column": "R_linear_t1",
+      "value": "0.0085165131526037"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074101,
+      "branch": "FRZ",
+      "joined_row_1based": 19,
+      "column": "R_frozen_t1",
+      "value": "0.0948921913886485"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074102,
+      "branch": "NL",
+      "joined_row_1based": 20,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.972758979698335"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074102,
+      "branch": "LIN",
+      "joined_row_1based": 20,
+      "column": "R_linear_t1",
+      "value": "-0.0137290660742548"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074102,
+      "branch": "FRZ",
+      "joined_row_1based": 20,
+      "column": "R_frozen_t1",
+      "value": "0.0045000822947611"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074103,
+      "branch": "NL",
+      "joined_row_1based": 21,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.9904548037241626"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074103,
+      "branch": "LIN",
+      "joined_row_1based": 21,
+      "column": "R_linear_t1",
+      "value": "0.0003803164252994"
+    },
+    {
+      "checkpoint": 1750,
+      "phase_seed": 2026074103,
+      "branch": "FRZ",
+      "joined_row_1based": 21,
+      "column": "R_frozen_t1",
+      "value": "0.0638521675335749"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074101,
+      "branch": "NL",
+      "joined_row_1based": 22,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.9668804909895776"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074101,
+      "branch": "LIN",
+      "joined_row_1based": 22,
+      "column": "R_linear_t1",
+      "value": "0.1068783282674215"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074101,
+      "branch": "FRZ",
+      "joined_row_1based": 22,
+      "column": "R_frozen_t1",
+      "value": "0.0993627442694764"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074102,
+      "branch": "NL",
+      "joined_row_1based": 23,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.977394076994778"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074102,
+      "branch": "LIN",
+      "joined_row_1based": 23,
+      "column": "R_linear_t1",
+      "value": "0.02587322377289"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074102,
+      "branch": "FRZ",
+      "joined_row_1based": 23,
+      "column": "R_frozen_t1",
+      "value": "0.0182653577105007"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074103,
+      "branch": "NL",
+      "joined_row_1based": 24,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.9746575922514586"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074103,
+      "branch": "LIN",
+      "joined_row_1based": 24,
+      "column": "R_linear_t1",
+      "value": "0.0667063638233154"
+    },
+    {
+      "checkpoint": 2250,
+      "phase_seed": 2026074103,
+      "branch": "FRZ",
+      "joined_row_1based": 24,
+      "column": "R_frozen_t1",
+      "value": "0.0834221199734025"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074101,
+      "branch": "NL",
+      "joined_row_1based": 25,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.9773841061368042"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074101,
+      "branch": "LIN",
+      "joined_row_1based": 25,
+      "column": "R_linear_t1",
+      "value": "-0.1208874094245446"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074101,
+      "branch": "FRZ",
+      "joined_row_1based": 25,
+      "column": "R_frozen_t1",
+      "value": "-0.0091319185616067"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074102,
+      "branch": "NL",
+      "joined_row_1based": 26,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.9703885970993296"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074102,
+      "branch": "LIN",
+      "joined_row_1based": 26,
+      "column": "R_linear_t1",
+      "value": "-0.0420960727990584"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074102,
+      "branch": "FRZ",
+      "joined_row_1based": 26,
+      "column": "R_frozen_t1",
+      "value": "0.0502307516267491"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074103,
+      "branch": "NL",
+      "joined_row_1based": 27,
+      "column": "R_nonlinear_t1_amplitude_matched",
+      "value": "0.9969172234137704"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074103,
+      "branch": "LIN",
+      "joined_row_1based": 27,
+      "column": "R_linear_t1",
+      "value": "-0.0047284513131888"
+    },
+    {
+      "checkpoint": 2750,
+      "phase_seed": 2026074103,
+      "branch": "FRZ",
+      "joined_row_1based": 27,
+      "column": "R_frozen_t1",
+      "value": "-0.0134213011490749"
+    }
+  ],
+  "crossed_design": {
+    "cases": 9,
+    "checkpoints": [
+      1750,
+      2250,
+      2750
+    ],
+    "phase_masks": [
+      2026074101,
+      2026074102,
+      2026074103
+    ],
+    "meaning": "crossed checkpoint-by-phase-mask combinations, not nine independent simulations"
+  },
+  "trajectory": {
+    "original_samples_per_branch": 31,
+    "dt": 0.01,
+    "output_interval": 0.1,
+    "selected_panel_B_samples_per_branch": 11,
+    "selected_interval": [
+      0,
+      1
+    ],
+    "time_grid_verified": true,
+    "NL_LIN_shared_perturbed_array_confirmed_in_generator": true,
+    "common_t0_scalar_verified": true,
+    "fixed_positive_D0_verified": true,
+    "max_FRZ_modal_amplitude_relative_error": 6.470553216155844e-16,
+    "FRZ_amplitude_and_energy_tolerance": 1e-12
+  },
+  "forcing_protocol": {
+    "NL_LIN": "same runner/parameters: viscosity=0.015, epsilon_input=0.1, dt=0.01; LIN disables quadratic advection but retains viscosity and forcing",
+    "FRZ": "same NL replay parameters; derived from NL amplitude at each output and initial randomized normalized direction",
+    "caveat": "constant-power negative-damping forcing is state dependent (modes 1<=|k|<=2); identical instantaneous forcing vectors across divergent states are not asserted"
+  },
+  "metric": "FIG3 X=mean(Pi)/mean(abs(Pi)); verified against mean_signed/mean_absolute. FIG2 mean/std definition remains distinct.",
+  "comparison_tolerance_abs_rel": 1e-12,
+  "figure_rendered": false,
+  "scientific_data_modified": false
+}

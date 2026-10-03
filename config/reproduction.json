@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source_archive_sha256": "e0695c277d91b322a829a7f9f5c895eb4db77e0d06b7bda430b4dfef8a9925c5",
+  "source_archive_name": "JHTDB_LOCAL_HANDOFF_V1.tar(1).gz",
+  "checkpoints": [
+    1750,
+    2250,
+    2750
+  ],
+  "phase_seeds": [
+    2026074101,
+    2026074102,
+    2026074103
+  ],
+  "dynamic": {
+    "box_length": "2*pi",
+    "viscosity": 0.015,
+    "epsilon_input": 0.1,
+    "dt": 0.01,
+    "n_steps": 300,
+    "output_every": 10,
+    "scale": 8,
+    "workers": 1
+  },
+  "release_version": "v0.1.0",
+  "publication_status": "prepared_locally_not_published",
+  "manuscript_title": "Erasing and Regenerating the Turbulent Cascade Arrow"
+}

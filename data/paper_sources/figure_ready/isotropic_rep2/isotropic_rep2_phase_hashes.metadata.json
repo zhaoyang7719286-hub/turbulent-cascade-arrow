@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/isotropic_rep2/isotropic_rep2_phase_hashes.csv",
+  "original_source_path": "phase_ensemble_v1/summaries/isotropic_rep2_24/isotropic_rep2_phase_hashes.csv",
+  "source_sha256": "cec7f113496581cc596319638e3da944f2fbd6a84756a3926624252fb5796dbd",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Original per-seed/per-case/comparator/fidelity values; copied byte-for-byte.",
+  "units_and_normalization": "Source-defined. Rep2 formal comparator is matched identity-phase output; raw DNS is a fidelity comparator. Channel metric follows formal summary.",
+  "validation_status": "Formal criterion FAIL with QC pass; retain diagnostic and no-go status.",
+  "validation_provenance": "Formal summary JSON and explicit FAIL marker",
+  "scientific_values_modified": false
+}

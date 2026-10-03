@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/spectral_energy/gate2_spectrum_summary.csv",
+  "original_source_path": "phase_ensemble_v1/audits/gate2_reference_vs_dns/gate2_spectrum_summary.csv",
+  "source_sha256": "c17668fc327bd1725190dd33a9a09e076d5d710cfa75d7f5278266f16fb7b5e2",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Per-seed or spectrum-level spectral/energy fidelity diagnostics copied exactly; no recomputation.",
+  "units_and_normalization": "Source-defined relative spectral and energy errors; dimensionless as defined in audit columns.",
+  "validation_status": "FIG2 validated tables; spectral QC/audit records retained; no upstream recomputation.",
+  "validation_provenance": "Gate 2 source manifest, SHA256SUMS, run metadata and spectral audit",
+  "scientific_values_modified": false
+}

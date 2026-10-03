@@ -1,0 +1,7 @@
+audit,field_id,field_seed,derivative,filter_width_gridpoints,phase_id,phase_seed,case,padding_factor,A_physical,A_minus_2x
+B_nonbandlimited_2x,0,2026071601,spectral,2,-1,-1,reference,1.0,0.00381730175849966,0.002054239629386956
+B_nonbandlimited_2x,0,2026071601,spectral,2,-1,-1,reference,1.5,0.0017630621291127027,-1.734723475976807e-18
+B_nonbandlimited_2x,0,2026071601,spectral,2,-1,-1,reference,2.0,0.0017630621291127044,0.0
+B_nonbandlimited_2x,0,2026071601,spectral,2,0,2026071701,surrogate,1.0,0.0021887567219469814,0.003234191706021233
+B_nonbandlimited_2x,0,2026071601,spectral,2,0,2026071701,surrogate,1.5,-0.0010454349840742486,3.2526065174565133e-18
+B_nonbandlimited_2x,0,2026071601,spectral,2,0,2026071701,surrogate,2.0,-0.0010454349840742518,0.0

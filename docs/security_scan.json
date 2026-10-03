@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "scope": "Known token/private-key/literal-secret and host-path pattern check; no arbitrary encoded-secret guarantee"
+}

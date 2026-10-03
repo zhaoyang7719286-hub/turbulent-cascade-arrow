@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/clark_association/mechanism_dns_vs_surrogate_finite_time_v3.csv",
+  "original_source_path": "phase_ensemble_v1/releases/clark_arrow_core_v1/mechanism_dns_vs_surrogate_finite_time_v3.csv",
+  "source_sha256": "0f12d123c6b96a43a039c8e258740aab359ba631d6f073c5b0f45cf608bf84f7",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Source-defined local Clark/geometry diagnostics copied without aggregation.",
+  "units_and_normalization": "As encoded in source columns and protocol; no new units/normalization inferred.",
+  "validation_status": "Checksum-listed release; synthesis audit pass.",
+  "validation_provenance": "Clark synthesis audit and SHA256SUMS",
+  "scientific_values_modified": false
+}

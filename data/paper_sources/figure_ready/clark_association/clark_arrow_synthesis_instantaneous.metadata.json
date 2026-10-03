@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/clark_association/clark_arrow_synthesis_instantaneous.csv",
+  "original_source_path": "phase_ensemble_v1/releases/clark_arrow_core_v1/clark_arrow_synthesis_instantaneous.csv",
+  "source_sha256": "8e0cdbf45e3ceaeb714bad22f409822a4bee49f924778b29a6aea40a9351f311",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Source-defined local Clark/geometry diagnostics copied without aggregation.",
+  "units_and_normalization": "As encoded in source columns and protocol; no new units/normalization inferred.",
+  "validation_status": "Checksum-listed release; synthesis audit pass.",
+  "validation_provenance": "Clark synthesis audit and SHA256SUMS",
+  "scientific_values_modified": false
+}

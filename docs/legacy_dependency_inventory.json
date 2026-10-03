@@ -1,0 +1,39 @@
+[
+  {
+    "file": "code/legacy/observables/clark_mechanism_v3_one_seed.py",
+    "referenced_files_not_in_upstream_src": [
+      "eulerian_finite_time_arrow_axisfixed_64cube.py"
+    ]
+  },
+  {
+    "file": "code/legacy/observables/eulerian_finite_time_arrow_axisfixed_64cube_v3.py",
+    "referenced_files_not_in_upstream_src": [
+      "eulerian_finite_time_arrow_axisfixed_64cube.py"
+    ]
+  },
+  {
+    "file": "code/legacy/observables/compute_clark_mechanism_64cube.py",
+    "referenced_files_not_in_upstream_src": [
+      "matplotlib.py"
+    ]
+  },
+  {
+    "file": "code/legacy/analysis/run_clark_mechanism_v3_ensemble.sh",
+    "referenced_files_not_in_upstream_src": [
+      "write_phase_hash_64cube.py"
+    ]
+  },
+  {
+    "file": "code/legacy/analysis/run_independent_replication_24seeds.sh",
+    "referenced_files_not_in_upstream_src": [
+      "make_projected_reference_dataset.py",
+      "write_phase_hash_64cube.py"
+    ]
+  },
+  {
+    "file": "code/legacy/analysis/run_channel_xz_formal_24seeds.sh",
+    "referenced_files_not_in_upstream_src": [
+      "run_channel_xz_case_streaming.py"
+    ]
+  }
+]

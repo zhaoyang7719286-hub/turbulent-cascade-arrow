@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/spectral_energy/gate3_exact_bispectrum_16cube_smoke/gate3_padding_sensitivity.csv",
+  "original_source_path": "phase_ensemble_v1/audits/gate3_exact_bispectrum_16cube_smoke/gate3_padding_sensitivity.csv",
+  "source_sha256": "9bb5249240f5eb418096d501b8d1c504d1c96499010231033a5e1706bac0af4d",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Source audit result rows copied exactly; no derived values.",
+  "units_and_normalization": "As named in gate3_kernel_convention.json; source-defined.",
+  "validation_status": "Existing Gate 3 PASS record; copy hash checked.",
+  "validation_provenance": "Gate 3 audit JSON, kernel convention and marker",
+  "scientific_values_modified": false
+}

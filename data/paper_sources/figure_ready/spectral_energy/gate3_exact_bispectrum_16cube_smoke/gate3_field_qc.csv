@@ -1,0 +1,3 @@
+audit,field_id,field_seed,bandlimit,field_sha256,hermitian_error_max,spectral_divergence_ratio,high_mode_energy_fraction_abs_kj_gt_3
+A_bandlimited,0,2026071601,3.0,89e3648ed410286d9d46699a6b192c10b9083bc7a711e693b5b5e911ba14d362,0.0,4.854580841055259e-17,0.0
+B_nonbandlimited_2x,0,2026071601,,9ff4bbb5416a4f4ebfe27c69d0361b3060f83a5625eca07415f1e82cfbc15da8,0.0,4.932075006983638e-17,0.8905282409153829

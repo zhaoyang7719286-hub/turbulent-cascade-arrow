@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "asset_path": "project/data/figure_ready/spectral_energy/fig1b_spectral_fidelity_qc.csv",
+  "original_source_path": "publication_figures_rebuild_v1/fig1/source_data/fig1b_spectral_fidelity_qc.csv",
+  "source_sha256": "2514d94401aa7d2693665d78aa82de883713b42a6eb36c55b083102ffe36adf2",
+  "transformation": "Byte-for-byte copy; no values, order, labels, or precision changed.",
+  "observable_definition": "Per-seed or spectrum-level spectral/energy fidelity diagnostics copied exactly; no recomputation.",
+  "units_and_normalization": "Source-defined relative spectral and energy errors; dimensionless as defined in audit columns.",
+  "validation_status": "FIG2 validated tables; spectral QC/audit records retained; no upstream recomputation.",
+  "validation_provenance": "Gate 2 source manifest, SHA256SUMS, run metadata and spectral audit",
+  "scientific_values_modified": false,
+  "upstream_source_sha256": "ae84246bd9e6eb0a4b72bf8cd586fc0564a215b6cdbca0f5f0ba657934caf8f1",
+  "public_copy_note": "Only host path strings were sanitized; numeric table values unchanged."
+}
