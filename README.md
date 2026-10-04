@@ -73,4 +73,4 @@ figures/reference/    current paper artwork
 
 The static flow originates from the Johns Hopkins Turbulence Database, https://turbulence.pha.jhu.edu/ . Dataset credit and acquisition coverage are described in `docs/DATA.md`. The repository does not contain an access token or redistribute the full JHTDB dataset. Numerical checkpoints are from the generated periodic experiment.
 
-Repository URL, final authorship, and reuse license have not been assigned in this prepared version. Citation and paper Data/Code Availability templates are in `docs/PAPER_REPOSITORY_TEXT.md` and `CITATION.cff.example`. Activate the citation file only after its metadata is agreed. Public visibility and software licensing are separate decisions; no open-source license is silently assigned by this package.
+Repository URL, final authorship, and reuse license have not been assigned in this prepared version. 
